@@ -1,0 +1,7 @@
+Vous vous etes inscrit avec succès à la Newsletter :
+
+<ul>
+    {% for categorie in categories %}
+        <li>{{ categorie.name|e }}</li>
+    {% endfor %}
+</ul>
